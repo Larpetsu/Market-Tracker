@@ -11,10 +11,10 @@ Discord bot that tracks stocks for you. Slash commands to build a watchlist, che
     /help — all of the above, in Discord
 
 ## Running it
-git clone https://github.com/Larpetsu/Market-Tracker.git
-pip install -r requirements.txt
-cp .env.example .env   # then drop your bot token in
-python main.py
+    git clone https://github.com/Larpetsu/Market-Tracker.git
+    pip install -r requirements.txt
+    cp .env.example .env   # then drop your bot token in   
+    python main.py
 
 ## Discord setup
 
