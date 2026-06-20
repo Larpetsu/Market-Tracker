@@ -2,16 +2,16 @@
 
 Discord bot that tracks stocks for you. Slash commands to build a watchlist, check prices, and get DM updates every few hours.
 ## Commands
-    /track AAPL — add a stock to your watchlist (pick an exchange if it's not US-listed)
-    /untrack AAPL — remove one
+    /track — add a stock to your watchlist (pick an exchange if it's not US-listed)
+    /untrack — remove one
     /watchlist — live prices for everything you're tracking
-    /price AAPL — quick price check, doesn't save anything
+    /price — quick price check, doesn't save anything
     /subscribe / /unsubscribe — toggle DM updates
     /status — see your current settings
     /help — all of the above, in Discord
 
 ## Running it
-
+git clone https://github.com/Larpetsu/Market-Tracker.git
 pip install -r requirements.txt
 cp .env.example .env   # then drop your bot token in
 python main.py
