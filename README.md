@@ -1,6 +1,6 @@
 # Markets Bot
 
-Discord bot that tracks stocks for you. Slash commands to build a watchlist, check prices, and get DM updates every few hours.
+Discord bot that tracks stocks for you. Use commands to choose stocks, check prices, and get DM updates every few hours.
 Uses Yahoo Finances free API, is avaliable to change to another.
 ## Commands
     /track — add a stock to your watchlist (pick an exchange if it's not US-listed)
